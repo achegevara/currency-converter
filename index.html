@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script defer src="code.js"></script>
+    <title>Currency converter</title>
 </head>
 <body>
+    <div id="name">CURRENCY CONVERTER</div>
+    <div id="container">
+        <table id="table" class="table">
+        <tr class="tableRow">
+            <td class="cell"><input type="text" placeholder="0.00" class="input"></td>
+            <td class="cell">
+                <select class="select">
+                    <option value="BYN" selected>BYN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="RUB">RUB</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="tableRow">
+            <td class="cell"><input type="text" placeholder="0.00" class="input"></td>
+            <td class="cell">
+                <select class="select">
+                    <option value="BYN">BYN</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="RUB">RUB</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="tableRow">
+            <td class="cell"><input type="text" placeholder="0.00" class="input"></td>
+            <td class="cell">
+                <select class="select">
+                    <option value="BYN">BYN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR" selected>EUR</option>
+                    <option value="RUB">RUB</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="tableRow">
+            <td class="cell"><input type="text" placeholder="0.00" class="input"></td>
+            <td class="cell">
+                <select class="select">
+                    <option value="BYN">BYN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="RUB" selected>RUB</option>
+                </select>
+            </td>
+        </tr>
+    </table>
     
+    <form class="addForm">
+        <span class="textOnly">Add currency:</span>
+        <select id="addCurr">
+            <option value="BYN">BYN</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RUB" >RUB</option>
+            <option value="UAH">UAH</option>
+            <option value="PLN">PLN</option>
+            <option value="CNY">CNY</option>
+            <option value="KZT">KZT</option>
+            <option value="TRY">TRY</option>
+            <option value="GBP">GBP</option>
+        </select>
+        </form>
+    <button class="button" id="clear">Clear</button>
+    </div>
+   
 </body>
 </html>

@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.table {
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #c2c2c2;
+}
+.cell {
+    vertical-align: center;
+    padding: 3px;
+}
+.button {
+    padding: 5px;
+    margin: 5px;
+}
+.input::-webkit-inner-spin-button { 
+    display: none;
+}
+input:focus {
+    outline: 2px solid rgb(0, 132, 255);
+}
+.addForm {
+    padding: 5px;
+    margin-top: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #c2c2c2;
+    width:max-content;
+}
+.textOnly {
+    font-size: 0.75em;
+}
